@@ -1,0 +1,75 @@
+/* ! ===== Simple Selectors =====*/
+/* ? 1. Tag Name */
+/*
+h1{
+    color: white;
+    background-color: teal;
+}
+
+h2{
+    color: white;
+    background-color: teal;
+}
+
+b{
+    color: white;
+    background-color: teal;
+}
+
+i{
+    color: white;
+    background-color: teal;
+}
+
+u{
+    color: white;
+    background-color: teal;
+}
+
+div{
+    color: white;
+    background-color: teal;
+}
+
+article{
+    color: white;
+    background-color: teal;
+}
+*/
+
+/* ? 2. grouping Selector(,) */
+/* h1,h2,b,i,u,div,article,body{
+    color: white;
+    background-color: teal;
+}  */
+
+/* ? 3. universal Selector(*) */
+/*
+*{
+    color: white;
+    background-color: teal;
+} 
+
+*/
+
+/* ? 4. id Selector (#) */
+#demo{
+    color: white;
+    background-color: blue;
+}
+
+#demo1{
+    color: white;
+    background-color: red;
+}
+
+/* ? 5. class selector (.) */
+/* .demo{
+    color: white;
+    background-color: teal;
+} */
+
+.demo3{
+    color: white;
+    background-color: teal;
+}

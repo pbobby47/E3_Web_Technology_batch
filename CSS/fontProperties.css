@@ -1,0 +1,76 @@
+*{
+    font-family: cursive;
+}
+
+p{
+    font-size: 16px;
+    /* It is used to specify the size of the text content
+    Values: xx-small , x-small , small , medium , large , x-large , xx-large , Any number */
+
+    font-weight:lighter;
+    /* It will display the content in bold format
+    values : 100 - 900 , bold/bolder , normal/lighter  */
+
+    font-style: normal;
+    /* It is an alternative to the i tag
+    Values: normal , italic/oblique */
+
+    /* font-variant: small-caps; */
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* ! External fonts:
+       1. open google fonts
+       2. click on bag and remove all
+       3. fonts ==> search ==> getfont
+       4. open bag ==> get embed code ==> copy html code and css code
+    */
+}
+
+/* 1st family */
+
+.comforter-brush-regular {
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 2nd family */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
+
+.playwrite-gb {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 3rd family */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700 */
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 4th family */
+
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 5th family */
+
+.matemasie-regular {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+

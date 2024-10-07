@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+        ! Marquee:
+            It implements the scrollable content in a webpage.
+            Marquee Tag is a inline-block level element.
+            Syntax:   <marquee>Content</marquee>
+
+        ? Attributes:
+            1. direction:
+                It will specify the direction of scrolling.
+                Values: left , right , up , down.
+            2. behavior:
+                It will specify the behavior of marquee tag.
+                Values: scroll , slide , alternate.
+            3. scrollamount:
+                It will specify the speed of scrolling.
+                values: 6(default) , Any Number.
+            4. loop:
+                It will specify how many times it have to scroll.
+                values: infinity times , Any Number.
+            5. height:
+                It will specify the height of marquee tag.
+                Ex: Any Number px.
+            6. width:
+                It will specify the width of marquee tag.
+                Ex: Any Number px.
+    -->
+
+    <marquee>Content</marquee>
+    <marquee>CBSE Results will be anounched🥳🥳🥳 on 10-Aug-2024</marquee>
+    <marquee direction="left">CBSE Results will be anounched🥳🥳🥳 on 10-Aug-2024</marquee>
+    <marquee direction="right">CBSE Results will be anounched🥳🥳🥳 on 10-Aug-2024</marquee>
+    <marquee direction="up">CBSE Results will be anounched🥳🥳🥳 on 10-Aug-2024</marquee>
+    <marquee direction="down">CBSE Results will be anounched🥳🥳🥳 on 10-Aug-2024</marquee>
+
+    <marquee behavior="scroll">I am scrolling</marquee>
+    <marquee behavior="slide">I am Sliding</marquee>
+    <marquee behavior="alternate">I am alternate</marquee>
+
+    <marquee scrollamount="3">I am scrolling with half speed</marquee>
+    <marquee scrollamount="6">I am scrolling with normal speed</marquee>
+    <marquee scrollamount="12" loop="3">I am scrolling with double speed</marquee>
+    <marquee scrollamount="18">I am scrolling with trible speed</marquee>
+    <marquee scrollamount="200" behavior="alternate">I am scrolling with random speed</marquee>
+
+    <marquee behavior="alternate" scrollamount="1"> <img src="./Images/Jonny.jpeg" alt="">  </marquee>
+    <marquee> <img src="./Images/lord shiva 2.jpeg" alt="">  </marquee>
+
+    <hr>
+
+    <marquee style="background-color: bisque;font-size: xx-large;" height="650px" width="200px" behavior="" direction="up">I am scrolling towards up</marquee>
+    <marquee style="background-color: chocolate;color: white;font-size: xx-large;" height="650px" width="950px"  behavior="" direction="left">I am scrolling towards left</marquee>
+    <marquee style="background-color: bisque;font-size: xx-large;" height="650px"  width="200px" behavior="" direction="down">I am scrolling towards down</marquee>
+    
+</body>
+</html>

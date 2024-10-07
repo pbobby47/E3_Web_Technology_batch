@@ -1,0 +1,14 @@
+/* section article{
+    color: white;
+    background-color: brown;
+} */
+
+/* section>p{
+    color: white;
+    background-color: brown;
+} */
+
+#sectionOne>article+p{
+    color: white;
+    background-color: brown;
+}

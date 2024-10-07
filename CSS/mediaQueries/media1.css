@@ -1,0 +1,59 @@
+h1 {
+  color: crimson;
+  text-align: center;
+}
+
+p {
+  color: blue;
+}
+
+@media all {
+  h1 {
+    /* color: darkgreen; */
+    /* text-align: end; */
+    font-size: 50px;
+  }
+
+  p {
+    /* color: rgb(57, 83, 4); */
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+  }
+  h1::after {
+    content: " : Mobile View";
+  }
+
+  body {
+    background-color: cadetblue;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  h1 {
+    font-size: 35px;
+  }
+  h1::after {
+    content: " : Tablet View";
+  }
+
+  body {
+    background-color: rgb(184, 101, 207);
+  }
+}
+
+@media screen and (800px <= width <= 1400px) {
+  h1 {
+    font-size: 50px;
+  }
+  h1::after {
+    content: " : Laptop View";
+  }
+
+  body {
+    background-color: rgb(128, 225, 234);
+  }
+}

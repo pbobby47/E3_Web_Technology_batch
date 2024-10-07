@@ -1,0 +1,9 @@
+/* img[alt]{
+    height: 200px;
+    width: 400px;
+} */
+
+img[alt="tiger3"]{
+    height: 200px;
+    width: 400px;
+}

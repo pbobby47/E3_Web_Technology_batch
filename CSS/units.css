@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+#mainContainer{
+    border: solid red;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainContainer #container{
+    height: 50%;
+    width: 500px;
+    border: solid blue;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainContainer #container #subContainer{
+    border: solid green;
+    height: 50%;
+    width: 80%;
+    background-color: chocolate;
+} */
+
+html{
+    font-size: 3vw;
+}
+
+main{
+    border: solid red;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-size: 0.9em;
+}
+
+div{
+    border: solid blue;
+    margin-top: 50px;
+    padding: 10px 10px;
+    font-size: 0.5em;
+    font-size: 0.5rem;
+}

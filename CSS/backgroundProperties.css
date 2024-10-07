@@ -1,0 +1,40 @@
+#box{
+    height: 800px;
+    width: 800px;
+    border: solid;
+    color: white;
+
+    background-color: brown;
+    /* It will specify the background-color of an element.
+        values: Any Colors (6 Ways) */
+
+    background-image: url("https://cdn.pixabay.com/photo/2023/09/04/17/48/flamingos-8233303_640.jpg");
+    /* It will specify the background image of an element
+    Values: url("./internalPath") or url("externalPath") */
+
+    background-repeat: no-repeat;
+    /* It will specify the image has to repeat or not.
+    Values: repeat(default) , repeat-x , repeat-y , no-repeat */
+
+    /* ? background-position: background-position-x background-position-y; */
+    background-position-x: left;
+    /* It will specify the position of an image w.r.to x-axis
+    Values: left , center , right */
+
+    background-position-y: bottom;
+    /* It will specify the position of an image w.r.to y-axis
+    Values: top , center , bottom */
+
+    background-position: center center;
+
+    /* background-size: cover; */
+}
+
+
+body{
+    color: #fff;
+    line-height: 50px;
+    background: url("https://cdn.pixabay.com/photo/2020/10/17/11/55/elephants-5661842_1280.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment:fixed;
+}

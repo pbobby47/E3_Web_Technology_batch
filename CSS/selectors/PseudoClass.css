@@ -1,0 +1,91 @@
+/* ! Example 1 */
+/* section :first-child{
+    color: white;
+    background-color: tomato;
+}
+
+section :last-child{
+    color: white;
+    background-color: tomato;
+} */
+
+/* section :nth-child(2),
+section :nth-child(4),
+section :nth-child(6),
+section :nth-child(8),
+section :nth-child(10) {
+  color: white;
+  background-color: teal;
+} */
+
+/* section :nth-child(3n+1) {
+  color: white;
+  background-color: teal;
+} */
+
+/* ! Example 2 */
+/* section :first-of-type{
+  color: white;
+  background-color: teal;
+}
+
+section :last-of-type{
+  color: white;
+  background-color: brown;
+} */
+
+/* section :nth-of-type(1){
+  color: white;
+  background-color: brown;
+} */
+
+
+h1:hover{
+  color: white;
+  background-color: darkorange;
+}
+
+#firstBox{
+  height: 100px;
+  background-color: goldenrod;
+}
+
+#firstBox:hover{
+  height: 150px;
+  width: 150px;
+  background-color: aqua;
+}
+
+a:link{
+  color: darkcyan;
+}
+
+a:visited{
+  color: darkgreen;
+}
+
+a:active{
+  color: gold;
+}
+
+a:any-link{
+  color: crimson;
+}
+
+/* input:checked{
+  height: 100px;
+  width: 100px;
+} */
+
+/* #content{
+  display: none;
+}
+
+input:checked + #content{
+  display: block;
+} */
+/* 
+input:focus{
+  color: chocolate;
+  background-color: bisque;
+} */

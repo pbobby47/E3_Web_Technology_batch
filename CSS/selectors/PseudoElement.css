@@ -1,0 +1,25 @@
+p::before {
+  content: "Mr. ";
+}
+
+p::after {
+  content: ", you got selected with a package of 50LPA...";
+}
+
+p::selection {
+  color: rgb(172, 4, 88);
+  background-color: rgb(216, 146, 146);
+}
+
+p::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+p::first-line {
+  color: blue;
+}
+
+li::marker {
+  color: brown;
+}

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  height: 500px;
+  /* width: 800px; */
+  background-color: bisque;
+  border: solid;
+
+  display: flex; /* It will convert the normal container into flexcontainer , it is the mandatory property to apply flex properties. */
+
+  justify-content: start;
+  /* It will align the FLEX-ITEMS in main - axis.
+    Values: start(default) , center , end , flex-start , flex-end , space-between , space-evenly , space-around*/
+
+  align-items: center;
+  /* It will align the FLEX-ITEMS in cross - axis.
+    Values: start(default) , center , end , flex-start , flex-end */
+
+  flex-direction: row;
+  /* It will specify in which direction we have to layout the flexitems
+    It will decide the main axis.
+    Values: row(default) , column , row-reverse , column-reverse */
+
+  /* column-gap: 20px; */
+  /* row-gap: 10px; */
+  /* gap: 10px 20px; */
+  /* gap: 10px; */
+
+  /* flex-wrap: wrap; */
+  /* It will specify that we have to wrap the flex-items into the next line or not.
+  In case of nowrap we will have shrink effect on flex-items
+  In case of wrap we will not have shrink effect on flex-items
+  Values: nowrap(default) , wrap , wrap-reverse.  */
+
+  align-content: start;
+  /* It will specify the position of the wrapped content.
+  values: start , center , end */
+  gap: 5px;
+}
+
+#container div {
+  height: 50px;
+  width: 100px;
+  background-color: chocolate;
+  border: solid;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  flex: 1;
+}
+
+#container :nth-child(1) {
+  background-color: red;
+  /* flex-grow: 1; */
+  /*? It will increase the size of the flex-items based on remaining space.If there is no remaining space in a container flex-grow will not work. */
+
+  /* flex-shrink: 15; */
+  /*? It will decrease the size of the flex-items based on  extra required space for flex-items in the container. If the sum of width of all flex-items less than container width or equal,  flex-shrink will not work. */
+
+  /* flex-basis: 300px; */
+  /*? It is just an alternative for width property. */
+
+  flex: 1;
+  /*? It is the shorthand property of flex-grow, flex-shrink, flex-basis */
+
+  order: 2;
+}
+
+#container :nth-child(2) {
+  background-color: teal;
+  /* flex-grow: 1; */
+  /* flex-shrink: 15; */
+  /* flex-basis: 300px; */
+  flex: 1;
+  order: 1;
+  align-self: flex-start;
+}
+
+#container :nth-child(3) {
+  background-color: rgb(142, 142, 77);
+  /* flex-grow: 1; */
+  /* flex-shrink: 15; */
+  /* flex-basis: 300px; */
+  flex: 1;
+  order: 3;
+  align-self: flex-end;
+}
+
+#container :nth-child(4) {
+  background-color: green;
+  /* flex-grow: 1; */
+}
+
+#container :nth-child(5) {
+  background-color: green;
+  order: 5;
+}

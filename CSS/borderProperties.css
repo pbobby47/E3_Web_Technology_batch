@@ -1,0 +1,42 @@
+#box{
+    height: 500px;
+    width: 500px;
+
+    /*? border: border-width border-style border-color; */
+    /* It will specify the border of an element.
+    Values: border-width border-style border-color */
+
+    border-width:100px;
+    /* It will specify the width of the border 
+    Values : Any Number */
+    border-style: ridge;
+    /* It will specify the style of the border
+    It is the mandatory property of border
+    Values: solid , dotted , dashed , double , groove , ridge , hidden , none */
+    border-color: red;
+    /* It will specify the color of the border
+    Values : Any Color */
+
+    border: 2px solid black;
+    border: 5px dotted blue;
+
+    border-top: 5px solid yellow;
+    border-bottom:10px double brown;
+    border-left:20px groove teal;
+    border-right:15px dashed rgb(8, 77, 224);
+}
+
+#box{
+    border: solid red;
+    border-radius: 0%;
+    border-radius: 0% 0% 0% 0%;
+}
+
+table{
+    border-collapse:collapse;
+    /* It will specify the cell has to seperate or not
+    Values: separate(default) , collpase */
+    border-spacing: 20px; 
+    /* It is an alternative to the cellspacing attribute
+    Values: any number */
+}

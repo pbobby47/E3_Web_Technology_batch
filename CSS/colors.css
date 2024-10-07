@@ -1,0 +1,55 @@
+/* ! Colors:
+1. colorname
+    Ex: blue
+2. rgb():
+    each color between 0 and 255.
+3. rgba(): 
+    rgba is similar to rgb
+    alpha indicates the opacity of color. 
+    values ranges between 0.0 to 1.0.
+4. HEX:
+    a) #rrggbb
+    a) #rgb
+    values ranges between 0 to f.
+5. HSL: 
+    Hue: 
+        it is like a color wheel of 360 deg
+        0 indicates red
+        120 indicates green
+        225 indicates blue
+    Saturation:
+        It indicates the amount of gray 
+        as the percentage is going to increase grayness will decrease and vice versa. 
+        0 - 100%
+        deafult : 100%
+    lightness: 
+        It indicates the lightness of the color.
+        0 - 100%
+        deafult : 50%
+        0 indicates black
+        50 indicates neither black nor white
+        100 indicates white
+
+6. HSLA: 
+    hsla is similar to hsl 
+    a indicates alpha.
+*/
+body{
+    background-color: blue;
+    background-color: rgb(0, 0, 255);
+    background-color: rgba(0, 0, 255, 1.0);
+    
+    background-color: #ff0000;
+    background-color: #00ff00;
+    background-color: #0000ff;
+
+    background-color: #f00;
+    background-color: #0f0;
+    background-color: #00f;
+
+    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(120, 100%, 50%);
+    background-color: hsl(225, 100%, 50%);
+
+    background-color: hsla(225, 100%, 50%,1.0);
+}

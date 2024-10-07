@@ -1,0 +1,52 @@
+p {
+  color: rgb(4, 28, 125);
+  text-align: justify;
+  /* It is used to align the content in a webpage
+        Values : start(default) , center , end , justify , left , right */
+
+  text-transform: capitalize;
+  /* It is used to convert the character cases
+    Values :  uppercase , lowercase , capitalize */
+
+  /* ? text-decoration:text-decoration-line text-decoration-style text-decoration-color ; */
+
+  /* text-decoration-line: underline; */
+  /* It is the mandatory property of text-decoration
+    Values: underline , overline , line-through */
+
+  /* text-decoration-style:double; */
+  /* It is used to specify the style of line
+    Values : solid(default) , dotted , dashed , double , wavy */
+
+  /* text-decoration-color:red; */
+  /* It is used to specify the color of line */
+
+  /* text-decoration: underline overline solid red; */
+
+  text-indent: 100px;
+  /* It is used to specify the length of indentation
+    Values : Any Number */
+
+  text-wrap: wrap;
+  /* It will wrap the content into the next line
+  Values: wrap(default) , nowrap */
+
+  letter-spacing: 5px;
+  /* It will specify the space between letters */
+  word-spacing: 10px;
+  /* It will specify the space between words */
+  background-color: bisque;
+  line-height: 50px;
+}
+
+div {
+  line-height: 50px;
+}
+
+h1 {
+  color: darkcyan;
+  text-align: center;
+  text-decoration: underline;
+  /*? text-shadow: x-axis y-axis blur color; */
+  text-shadow: 2px 2px 3px rgba(0, 139, 139, 0.566);
+}

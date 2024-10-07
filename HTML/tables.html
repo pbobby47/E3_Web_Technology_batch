@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Tables</h3>
+    <!-- 
+    ! Tables:
+        It helps to store the data in the form of row and columns format.
+        ? Tags:
+            1. table ==> It defines the creation of table.
+            2. tr ==> It defines the creation of table row.
+            3. td ==> It defines the creation of table data (cell).
+            4. th ==> It will define the table heading.
+            5. caption ==> It will specify the title of the table.
+            6. thead
+            7. tbody
+            8. tfoot
+        ? Attributes:
+            1. border ==> table ==> it will specify the border of a table.
+            2. rowspan ==> th , td ==> It will merge the cells over rows.
+            3. colspan ==> th , td ==> It will merge the cells over columns.
+            4. cellspacing ==> table ==> It will provide the space between the cells.
+            5. cellpadding ==> table ==> It will provide the space between cell border and content.
+
+    -->
+
+    <h3>My Student Table</h3>
+
+    <table border="3" cellspacing="0" cellpadding="10">
+        <caption><big><b><u><i>My Student Table</i></u></b></big></caption>
+        <thead style="background-color: chocolate;">
+            <tr>
+                <!-- Row 1 -->
+                <th>S.No</th>
+                <th colspan="2">Details</th>
+                <!-- <th>Details</th> -->
+            </tr>
+        </thead>
+
+        <tbody style="background-color: bisque;">
+        <tr>
+            <!-- Row 2 -->
+             <td>1</td>
+             <td>Hardik</td>
+             <td>BSC (IT)</td>
+        </tr>
+
+        <tr>
+            <!-- Row 3 -->
+             <td>2</td>
+             <td>Nikki</td>
+             <td rowspan="2">MCA</td>
+        </tr>
+
+        <tr>
+            <!-- Row 4 -->
+             <td>3</td>
+             <td>Jaskaran</td>
+             <!-- <td>MCA</td> -->
+        </tr>
+        </tbody>
+        <tfoot style="background-color: cadetblue;">
+            <tr>
+                <td colspan="3"><center>Contact US : <a href="tel:9876541230">click here</a></center></td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+</body>
+</html>
